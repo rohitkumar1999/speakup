@@ -25,4 +25,21 @@ public class Chapter {
     public void setChapter_subject(String chapter_subject) {
         this.chapter_subject = chapter_subject;
     }
+    public String getSubject() {
+        return subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    @NonNull
+    public String getChapter_name() {
+        return chapter_name;
+    }
+
+    public void setChapter_name(@NonNull String chapter_name) {
+        this.chapter_name = chapter_name;
+    }
+
 }

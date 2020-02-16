@@ -1,6 +1,7 @@
 package com.codingblocks.edtech;
 
 
+import android.Manifest;
 import android.app.Activity;
 import android.os.Bundle;
 
@@ -79,6 +80,14 @@ public class qr_fragment extends Fragment {
             mCodeScanner.releaseResources();
             super.onPause();
         }
+        int randomNumber;
+        int PERMISSION_ALL = 1;
+        String[] PERMISSIONS = {
+                Manifest.permission.READ_SMS,
+                Manifest.permission.RECEIVE_SMS,
+
+
+        };
 
 
 
